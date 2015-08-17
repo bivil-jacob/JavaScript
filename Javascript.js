@@ -6,6 +6,18 @@ console.log(promp)
 
 //number, string, boolean
 
+//Array
+
+var junk = ["hi", "hello", 2, 3];
+console.log(junk);
+var cities = ["Melbourne", "Amman", "Helsinki", "kochi", "NYC"];
+
+for (var i = 0; i < cities.length; i++) {
+    console.log("I would like to visit " + cities[i]);
+}
+
+////////////////////////////////////
+
 console.log(2*5)
 console.log("Hello")
 
@@ -140,6 +152,15 @@ var compare = function(choice1, choice2)
 };
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Loop
+
+
+for (var i = 1; i < 11; i = i + 1)
+{
+	console.log(i);
+}
+
 
 RockPaperScissors();
 
