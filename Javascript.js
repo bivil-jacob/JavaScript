@@ -214,6 +214,29 @@ var compare = function(choice1, choice2)
 };
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+var MealChoice = function()
+{
+	var lunch = prompt("What do you want for lunch?","Type your lunch choice here");
+
+switch(lunch){
+  case 'sandwich':
+    console.log("Sure thing! One sandwich, coming up.");
+    break;
+  case 'soup':
+    console.log("Got it! Tomato's my favorite.");
+    break;
+  case 'salad':
+    console.log("Sounds good! How about a caesar salad?");
+    break;
+  case 'pie':
+    console.log("Pie's not a meal!");
+    break;
+  default:
+    console.log("Huh! I'm not sure what " + lunch + " is. How does a sandwich sound?");
+}
+};
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Loop
 
@@ -226,8 +249,10 @@ for (var i = 1; i < 11; i = i + 1)
 
 //RockPaperScissors();
 //stringSearch();
-DragonSlayer();
+//DragonSlayer();
 //sorangeCost(5)
+
+MealChoice();	
 
 //bieber()
 
