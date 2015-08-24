@@ -101,6 +101,39 @@ var orangeCost = function(cost)
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+var stringSearch = function()
+{
+
+
+var text = "hey bivil nwn hj hello hi happy india \
+nknek jnwk mnek  bivil jiwfe";
+var myName ="bivil"
+var hits = []
+
+for (var i = 0; i<text.length; i++)
+{
+    
+    
+    
+    if(text[i] === myName[0])
+    {
+        for(var j=i; j<i+myName.length; j++)
+        {
+            hits.push(text[j]);   
+        }
+        
+        
+    }
+    
+}
+if (hits.length === 0)
+    console.log ("Your name wasn't found!")
+else
+    console.log(hits)
+
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 var RockPaperScissors = function(){
 
@@ -162,7 +195,8 @@ for (var i = 1; i < 11; i = i + 1)
 }
 
 
-RockPaperScissors();
+//RockPaperScissors();
+stringSearch();
 
 //sorangeCost(5)
 
