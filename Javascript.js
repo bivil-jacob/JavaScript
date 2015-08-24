@@ -307,7 +307,6 @@ var search = function(name) {
     }
   }
 };
-
 list(friends);
 search("Steve");
 }
